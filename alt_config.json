@@ -1,0 +1,30 @@
+{
+    "atajos": {
+        "grabar": "alt+shift+x",
+        "cerrar": "f8"
+    },
+    "whisper_model": "base",
+    "directorio_salida": "./grabaciones/",
+    "notificar_cada_minutos": 5,
+    "formatos_salida": {
+        "clipboard": true,
+        "txt_file": true,
+        "json_with_metadata": false,
+        "srt_subtitles": false
+    },
+    "interfaz": {
+        "mostrar_indicador": true,
+        "posicion_x": 100,
+        "posicion_y": 100
+    },
+    "parametros_whisper": {
+        "language": "es",
+        "task": "transcribe",
+        "temperature": 0.0,
+        "condition_on_previous_text": true,
+        "no_speech_threshold": 0.6,
+        "logprob_threshold": -1.0,
+        "compression_ratio_threshold": 2.4,
+        "fp16": false
+    }
+}
