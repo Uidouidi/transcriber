@@ -17,16 +17,7 @@
 ## 📋 Requisitos
 
 - Python 3.8+
-- Las siguientes dependencias (ya instaladas según tu entorno):
-  ```
-  openai-whisper==20240930
-  sounddevice==0.5.1
-  keyboard==0.13.5
-  pyperclip==1.9.0
-  plyer==2.1.0
-  numpy==2.2.5
-  torch==2.7.0
-  ```
+- ```pip install requirements.txt```
 
 ## 🛠️ Instalación
 
